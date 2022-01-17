@@ -1,0 +1,319 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #201F20;
+    color: #EBEAEB;
+    font-family: 'Press Start 2P', cursive;
+    position: relative;
+}
+
+.upper-container{
+    width: 100%;
+    height: 280px;
+    position: relative;
+    text-align: center;
+}
+hr{
+    height: 5px;
+    border: none;
+    background-color: #EBEAEB;
+    width: 100%;
+}
+.again , .check-btn{
+    font-size: 1.3rem;
+    font-family: 'Press Start 2P', cursive;
+    color: #201F20;
+    padding: 0.5rem 0.2rem;
+    padding-left: 1rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+.middlebox-container{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 204px;
+    display: flex;
+    justify-content: center;
+    
+}
+.middle-box{
+    width: 150px;
+    height: 150px;
+    background-color: #EBEAEB;
+    color: #201F20;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+}
+h1{
+    font-size: 2.5rem;
+    margin-top: 7rem;
+    display: inline-block;
+}
+.upper-paragraph{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1rem;
+}
+.second-container{
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+}
+.left-div{
+    height: 100%;
+    width: 50%;
+}
+.right-div{
+    height: 100%;
+    width: 50%;    
+}
+#numInp{
+    width: 200px;
+    height: 100px;
+    font-size: 3rem;
+    background-color: #201F20;
+    color: #EBEAEB;
+    text-align: center;
+    border: solid 2px #EBEAEB;
+    border-radius: 5%;
+    display: block;
+    margin: auto;
+    margin-top: 7rem;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.check-btn{
+    position: static;
+    display: block;
+    margin: auto;
+    margin-top: 1.3rem;
+}
+.high-or-low , .score , .highscore{
+    display: block;
+    font-size: 1.3rem;
+}
+.high-or-low{
+    margin-top: 7rem;
+}
+.score{
+    margin-top: 4rem;
+}
+.highscore{
+    margin-top: 2rem;
+}
+
+@media screen and (max-width : 784px){
+    h1{
+        font-size: 2rem;
+    }
+    .middlebox-container{
+        height: 130px;
+        top: 214px;
+        
+    }
+    .middle-box{
+        width: 130px;
+        height: 130px;
+        font-size: 3rem;
+    }
+    .again , .check-btn{
+        font-size: 1rem;
+        padding: 0.3rem 0.1rem;
+        padding-left: 0.5rem;
+    }
+    #numInp{
+        width: 170px;
+        height: 80px;
+        font-size: 2rem;
+    }
+    .upper-paragraph{
+        font-size: 0.8rem;
+    }
+    .high-or-low , .score , .highscore{
+        font-size: 1.1rem;
+    }
+   
+}
+@media screen and (max-width : 684px){
+    h1{
+        font-size: 1.5rem;
+        margin-top: 8rem;
+    }
+    .middlebox-container{
+        height: 110px;
+        top: 223px;
+        
+    }
+    .middle-box{
+        width: 110px;
+        height: 110px;
+        font-size: 2.5rem;
+    }
+    
+    .again , .check-btn{
+        font-size: 0.8rem;
+        padding: 0.2rem 0.05rem;
+        padding-left: 0.5rem;
+    }
+    #numInp{
+        width: 150px;
+        height: 70px;
+        font-size: 1.6rem;
+    }
+    .upper-paragraph{
+        font-size: 0.7rem;
+    }
+    .high-or-low , .score , .highscore{
+        font-size: 0.9rem;
+    }
+    .second-container{
+        height: 450px;
+
+    }
+
+
+
+
+}
+@media screen and (max-width:448px){
+    h1{
+        font-size: 1.3rem;
+        margin-top: 8rem;
+    }
+    .middlebox-container{
+        height: 90px;
+        top: 235px;
+        
+    }
+    .middle-box{
+        width: 90px;
+        height: 90px;
+        font-size: 2rem;
+    }
+    
+    .again , .check-btn{
+        font-size: 0.8rem;
+        padding: 0.2rem 0.05rem;
+        padding-left: 0.5rem;
+    }
+    #numInp{
+        width: 130px;
+        height: 60px;
+        font-size: 1.6rem;
+        margin-top: 2rem;
+    }
+    .upper-paragraph{
+        font-size: 0.7rem;
+    }
+    .high-or-low , .score , .highscore{
+        font-size: 0.9rem;
+    }
+    .second-container{
+        width: 100%;
+        height: 400px;
+        margin-top: 5rem;
+        display: block;
+    }
+    .left-div{
+        height: 50%;
+        width: 100%;
+    }
+    .right-div{
+        height: 50%;
+        width: 100%;    
+        text-align: center;
+    }
+    .high-or-low{
+        margin: 0;
+    }
+}
+@media screen and (max-width:390px){
+    h1{
+        font-size: 1.1rem;
+        margin-top: 8rem;
+    }
+    .middlebox-container{
+        height: 80px;
+        top: 242px;
+        
+    }
+    .middle-box{
+        width: 80px;
+        height: 80px;
+        font-size: 1.8rem;
+    }
+    
+    .again , .check-btn{
+        font-size: 0.6rem;
+        padding: 0.2rem 0.05rem;
+        padding-left: 0.5rem;
+    }
+    #numInp{
+        width: 110px;
+        height: 55px;
+        font-size: 1.4rem;
+        margin-top: 3.3rem;
+    }
+    .upper-paragraph{
+        font-size: 0.6rem;
+    }
+    .high-or-low , .score , .highscore{
+        font-size: 0.8rem;
+    }
+    .second-container{
+        width: 100%;
+        height: 250px;
+        margin-top: 5rem;
+        display: block;
+        margin-top: 1rem
+    }
+}
+@media screen and (max-width:320px){
+
+.upper-container{
+    height: 250px;
+}
+.middlebox-container{
+    height: 70px;
+    top: 216px;
+    
+}
+.middle-box{
+    width: 70px;
+    height: 70px;
+    font-size: 1.7rem;
+}
+#numInp{
+    width: 100px;
+    height: 45px;
+    font-size: 1.4rem;
+    margin-top: 3.3rem;
+}
+.high-or-low , .score , .highscore{
+    font-size: 0.7rem;
+}
+}
+
+
+/* @media screen and (max-height:800px){
+     .second-container{
+        width: 100%;
+        height: 50vh;
+        margin-top: 10rem;
+        margin-top: 1rem
+    }
+    .upper-container{
+        height: 40vh;
+    }
+} */
